@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title th:text="${titulo}"></title>
+		<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
 	</head>
 	<body>
 		<h1 th:text="${titulo}"></h1>
@@ -23,4 +24,6 @@
 				</tr>
 			</tbody>
 		</table>
+		<h2 class="color-azul">Decorando con estilos css</h2>
+		<img th:src="@{/images/duck-pixel.gif}" alt="Imágen con thymeleaf">
 </html>
